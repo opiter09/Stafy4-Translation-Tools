@@ -26,7 +26,7 @@ for j in range(34):
                 break
 
     for i in range(len(starts) - 1):
-        new = open(str(j).zfill(4) + "_textFiles/" + str(starts[i]) + ".bin", "wb")
+        new = open(str(j).zfill(4) + "_textFiles/" + str(starts[i]) + "_" + str(starts[i + 1])+ ".bin", "wb")
         new.write(binn[starts[i]:starts[i + 1]])
         new.close()
     
