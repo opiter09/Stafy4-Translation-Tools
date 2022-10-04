@@ -13,6 +13,6 @@ for i in range(os.stat("arm9.bin").st_size):
 starts.append((os.stat("arm9.bin").st_size - 640068) + 602876)
 
 for i in range(len(starts) - 1):
-    new = open("armTextFiles/" + str(starts[i]) "_" + str(starts[i + 1]) + ".bin", "wb")
+    new = open("armTextFiles/" + str(starts[i]) + "_" + str(starts[i + 1]) + ".bin", "wb")
     new.write(binn[starts[i]:starts[i + 1]])
     new.close()
