@@ -694,10 +694,6 @@ msgstr ""
 msgid "<0xF0>O-<0xE9>4�~M<0xE2><0x01>`<0xA0><0xE1>"
 msgstr ""
 
-# 0x0008AF22 (0x021B2502) <- 0x000C0A54 (0x021E8034)
-msgid "���"
-msgstr ""
-
 # 0x0008BE22 (0x021B3402) <- 0x000308BC (0x02157E9C)
 msgid "Q<0xE1>6"
 msgstr ""
@@ -5198,7 +5194,7 @@ msgstr ""
 msgid "StageEnemy/kabutongani_00_l"
 msgstr ""
 
-# 0x00128F20 (0x02250500) <- 0x000B14E4 (0x021D8AC4), 0x0012BAA0 (0x02253080)
+# 0x00128F20 (0x02250500) <- 0x0012BAA0 (0x02253080)
 msgid "StageEnemy/rancer_00_l.NCGR"
 msgstr ""
 
