@@ -1,0 +1,55 @@
+# overlay_0005.bin
+msgid ""
+msgstr ""
+"Language: en_US\n"
+"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Generated-By: Immediate Pointer Finder 1.1\n"
+
+# 0x00000000 (0x021275E0) <- 0x00010BC0 (0x021381A0)
+msgid "@-éH Ÿå"
+msgstr ""
+
+# 0x0000200C (0x021295EC) <- 0x00000CBC (0x0212829C)
+msgid "(`"
+msgstr ""
+
+# 0x00003178 (0x0212A758) <- 0x00000CB4 (0x02128294)
+msgid "È]"
+msgstr ""
+
+# 0x0000C850 (0x02133E30) <- 0x00000CD4 (0x021282B4)
+msgid "è_"
+msgstr ""
+
+# 0x0000DD70 (0x02135350) <- 0x00000CCC (0x021282AC); 0x0000DE20 (0x02135400) <- 0x00000D00 (0x021282E0); 0x0000DEDC (0x021354BC) <- 0x00000CF0 (0x021282D0); 0x0000DFA0 (0x02135580) <- 0x00000CF8 (0x021282D8); 0x0000E060 (0x02135640) <- 0x00000CE8 (0x021282C8)
+msgid ""
+msgstr ""
+
+# 0x0000E110 (0x021356F0) <- 0x00000CC8 (0x021282A8); 0x0000E820 (0x02135E00) <- 0x00000CC0 (0x021282A0); 0x0000EF34 (0x02136514) <- 0x00000CC4 (0x021282A4); 0x0000F648 (0x02136C28) <- 0x00000CE4 (0x021282C4); 0x0000FD58 (0x02137338) <- 0x00000CDC (0x021282BC); 0x0001046C (0x02137A4C) <- 0x00000CE0 (0x021282C0)
+msgid ""
+msgstr ""
+
+# 0x00010BA8 (0x02138188) <- 0x00000054 (0x02127634)
+msgid "h·¼2ôµ Œ´HÏàuØ¡DxdvHv"
+msgstr ""
+
+# 0x00010BDC (0x021381BC) <- 0x0000005C (0x0212763C)
+msgid "ØEE"
+msgstr ""
+
+# 0x00010CF0 (0x021382D0) <- 0x00000D14 (0x021282F4)
+msgid "Cell/omedetou_high_obj.NANR"
+msgstr ""
+
+# 0x00010D0C (0x021382EC) <- 0x00000D18 (0x021282F8)
+msgid "Cell/omedetou_high_obj.NCGR"
+msgstr ""
+
+# 0x00010D28 (0x02138308) <- 0x00000D1C (0x021282FC)
+msgid "Cell/omedetou_high_obj.NCLR"
+msgstr ""
+
+# 0x00010D44 (0x02138324) <- 0x00000D2C (0x0212830C)
+msgid "/Font/stafy4_13b2_2_bmp.bin"
+msgstr ""

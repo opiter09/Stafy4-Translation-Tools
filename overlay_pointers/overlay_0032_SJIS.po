@@ -1,0 +1,179 @@
+# overlay_0032.bin
+msgid ""
+msgstr ""
+"Language: en_US\n"
+"Project-Id-Version: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Generated-By: Immediate Pointer Finder 1.1\n"
+
+# 0x00000000 (0x021275E0) <- 0x00009008 (0x021305E8)
+msgid "@-éÄ Ÿå"
+msgstr ""
+
+# 0x00002794 (0x02129D74) <- 0x00002778 (0x02129D58)
+msgid "p@-E@ E"
+msgstr ""
+
+# 0x00002B24 (0x0212A104) <- 0x00002774 (0x02129D54); 0x00002E68 (0x0212A448) <- 0x00002764 (0x02129D44); 0x000051B8 (0x0212C798) <- 0x0000151C (0x02128AFC)
+msgid "0@-EÐME@ E"
+msgstr ""
+
+# 0x0000349C (0x0212AA7C) <- 0x0000276C (0x02129D4C); 0x000049FC (0x0212BFDC) <- 0x00002754 (0x02129D34)
+msgid "ð@-EÐME@ E"
+msgstr ""
+
+# 0x00005718 (0x0212CCF8) <- 0x00001CD4 (0x021292B4); 0x00005754 (0x0212CD34) <- 0x00001D88 (0x02129368)
+msgid ""
+msgstr ""
+
+# 0x00005758 (0x0212CD38) <- 0x00000884 (0x02127E64)
+msgid "¨$"
+msgstr ""
+
+# 0x000068A0 (0x0212DE80) <- 0x00001FD8 (0x021295B8)
+msgid "("
+msgstr ""
+
+# 0x00006CBC (0x0212E29C) <- 0x00000878 (0x02127E58)
+msgid "HÊ"
+msgstr ""
+
+# 0x000088C4 (0x0212FEA4) <- 0x0000088C (0x02127E6C); 0x00008988 (0x0212FF68) <- 0x00000880 (0x02127E60)
+msgid ""
+msgstr ""
+
+# 0x00008A1C (0x0212FFFC) <- 0x00000888 (0x02127E68); 0x00008E80 (0x02130460) <- 0x0000087C (0x02127E5C)
+msgid ""
+msgstr ""
+
+# 0x00008FE0 (0x021305C0) <- 0x00000C90 (0x02128270)
+msgid "8l ¨Ð "
+msgstr ""
+
+# 0x00008FF0 (0x021305D0) <- 0x000000D0 (0x021276B0)
+msgid "h·¼2ôµ Œ´pàuØ¡ EE@€"
+msgstr ""
+
+# 0x00009024 (0x02130604) <- 0x000000D4 (0x021276B4)
+msgid "ØEE"
+msgstr ""
+
+# 0x00009138 (0x02130718) <- 0x000006AC (0x02127C8C)
+msgid "Cell/gameover_obj_a.NCER"
+msgstr ""
+
+# 0x00009154 (0x02130734) <- 0x000006B4 (0x02127C94)
+msgid "Cell/gameover_obj_a.NANR"
+msgstr ""
+
+# 0x00009170 (0x02130750) <- 0x00001518 (0x02128AF8)
+msgid "Isd/go.isk"
+msgstr ""
+
+# 0x0000917C (0x0213075C) <- 0x00001CCC (0x021292AC)
+msgid "Isd/gosub.isk"
+msgstr ""
+
+# 0x0000918C (0x0213076C) <- 0x00001CE8 (0x021292C8)
+msgid "Cell/gameover_obj_0.NCER"
+msgstr ""
+
+# 0x000091A8 (0x02130788) <- 0x00001CF0 (0x021292D0)
+msgid "Cell/gameover_obj_0.NANR"
+msgstr ""
+
+# 0x000091C4 (0x021307A4) <- 0x00001CF8 (0x021292D8)
+msgid "Cell/gameover_obj_1.NCER"
+msgstr ""
+
+# 0x000091E0 (0x021307C0) <- 0x00001D00 (0x021292E0)
+msgid "Cell/gameover_obj_1.NANR"
+msgstr ""
+
+# 0x000091FC (0x021307DC) <- 0x00001D08 (0x021292E8)
+msgid "Cell/gameover_kyoro_00_16.NCER"
+msgstr ""
+
+# 0x0000921C (0x021307FC) <- 0x00001D10 (0x021292F0)
+msgid "Cell/gameover_kyoro_00_16.NANR"
+msgstr ""
+
+# 0x0000923C (0x0213081C) <- 0x00001D18 (0x021292F8)
+msgid "Cell/gameover_kyoro_00_16.NCGR"
+msgstr ""
+
+# 0x0000925C (0x0213083C) <- 0x00001D20 (0x02129300)
+msgid "Cell/gameover_kyoro_00_16.NCLR"
+msgstr ""
+
+# 0x0000927C (0x0213085C) <- 0x00001D30 (0x02129310)
+msgid "Cell/gameover_obj_a.NCLR"
+msgstr ""
+
+# 0x00009298 (0x02130878) <- 0x00001D3C (0x0212931C)
+msgid "Cell/gameover_obj_0.NCGR"
+msgstr ""
+
+# 0x000092B4 (0x02130894) <- 0x00001D40 (0x02129320)
+msgid "Cell/gameover_obj_0.NCLR"
+msgstr ""
+
+# 0x000092D0 (0x021308B0) <- 0x00001D4C (0x0212932C)
+msgid "Cell/gameover_obj_1.NCGR"
+msgstr ""
+
+# 0x000092EC (0x021308CC) <- 0x00001D50 (0x02129330)
+msgid "Cell/gameover_obj_1.NCLR"
+msgstr ""
+
+# 0x00009308 (0x021308E8) <- 0x0000534C (0x0212C92C); 0x0000931C (0x021308FC) <- 0x00005350 (0x0212C930); 0x00009358 (0x02130938) <- 0x0000535C (0x0212C93C)
+msgid "G3d/go_01_l.nsbtx"
+msgstr ""
+
+# 0x00009330 (0x02130910) <- 0x00005354 (0x0212C934); 0x00009344 (0x02130924) <- 0x00005358 (0x0212C938)
+msgid "G3d/go_01_l.nsbmd"
+msgstr ""
+
+# 0x0000936C (0x0213094C) <- 0x00005360 (0x0212C940); 0x0000939C (0x0213097C) <- 0x00005368 (0x0212C948)
+msgid "G3d/go_01try_l.nsbca"
+msgstr ""
+
+# 0x00009384 (0x02130964) <- 0x00005364 (0x0212C944); 0x000093B4 (0x02130994) <- 0x0000536C (0x0212C94C)
+msgid "G3d/go_01try_l.nsbma"
+msgstr ""
+
+# 0x000093CC (0x021309AC) <- 0x00005608 (0x0212CBE8); 0x000093E4 (0x021309C4) <- 0x0000560C (0x0212CBEC); 0x0000942C (0x02130A0C) <- 0x00005618 (0x0212CBF8)
+msgid "G3d/gosub_01_l.nsbtx"
+msgstr ""
+
+# 0x000093FC (0x021309DC) <- 0x00005610 (0x0212CBF0); 0x00009414 (0x021309F4) <- 0x00005614 (0x0212CBF4)
+msgid "G3d/gosub_01_l.nsbmd"
+msgstr ""
+
+# 0x00009444 (0x02130A24) <- 0x0000561C (0x0212CBFC); 0x00009458 (0x02130A38) <- 0x00005620 (0x0212CC00); 0x000094BC (0x02130A9C) <- 0x00005634 (0x0212CC14)
+msgid "G3d/go_02_l.nsbtx"
+msgstr ""
+
+# 0x0000946C (0x02130A4C) <- 0x00005624 (0x0212CC04); 0x000094A8 (0x02130A88) <- 0x00005630 (0x0212CC10)
+msgid "G3d/go_02_l.nsbmd"
+msgstr ""
+
+# 0x00009480 (0x02130A60) <- 0x00005628 (0x0212CC08); 0x000094D0 (0x02130AB0) <- 0x00005638 (0x0212CC18)
+msgid "G3d/go_02_l.nsbca"
+msgstr ""
+
+# 0x00009494 (0x02130A74) <- 0x0000562C (0x0212CC0C); 0x000094E4 (0x02130AC4) <- 0x0000563C (0x0212CC1C)
+msgid "G3d/go_02_l.nsbta"
+msgstr ""
+
+# 0x000094F8 (0x02130AD8) <- 0x00005640 (0x0212CC20); 0x00009528 (0x02130B08) <- 0x00005648 (0x0212CC28)
+msgid "G3d/go_02try_l.nsbca"
+msgstr ""
+
+# 0x00009510 (0x02130AF0) <- 0x00005644 (0x0212CC24); 0x00009540 (0x02130B20) <- 0x0000564C (0x0212CC2C)
+msgid "G3d/go_02try_l.nsbma"
+msgstr ""
+
+# 0x00009558 (0x02130B38) <- 0x00005650 (0x0212CC30); 0x00009570 (0x02130B50) <- 0x00005654 (0x0212CC34)
+msgid "G3d/go_02over_l.nsbca"
+msgstr ""
