@@ -12,8 +12,11 @@ for i in range(34):
     offsetList = []
     for j in range(len(lines) - 1):
         if lines[j + 1].startswith("msgid") and (len(lines[j + 1]) > 14) and ("<" not in lines[j + 1]) and ("@" not in lines[j + 1]) and ("ï" not in lines[j + 1]):
-            offsetList.append([ int(lines[j].split("(")[1].split(")")[0], 16), int(lines[j].split("<- ")[1].split(" ")[0], 16),
-                int(lines[j].split("<- ")[1].split(" ")[0], 16) + 4 ])   
+            # if len(lines[j].split(",")) > 1:
+                # print(i)
+            for substring in lines[j].split(";"):
+                offsetList.append([ int(substring.split("(")[1].split(")")[0], 16), int(substring.split("<- ")[1].split(" ")[0], 16),
+                    int(substring.split("<- ")[1].split(" ")[0], 16) + 4 ])   
     offsetList.sort(key = lambda a: a[0])
 
     starter = 0
