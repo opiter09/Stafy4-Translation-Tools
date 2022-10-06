@@ -25,15 +25,26 @@ for i in range(34):
             for file in files:
                 begOffset = int(file.split("_")[0])
                 endOffset = int(file.split("_")[1].split(".")[0])
-                change = os.stat(os.path.join(root, file)).st_size - (endOffset - begOffset)
+                change = os.stat("./" + str(i).zfill(4) + "_textFiles/" + file).st_size - (endOffset - begOffset)
                 for j in range(starter, len(offsetList)):
                     if (offsetList[j][0] > begOffset):
                         offsetList.insert(j, [ -1, begOffset, endOffset ])
                         globalSum = globalSum + change
                         starter = j + 1
                         break
+                    elif (j == len(offsetList) - 1):
+                        offsetList.append([ -1, begOffset, endOffset ])
+                        globalSum = globalSum + change
+                        starter = -1
                     else:
                         offsetList[j][0] = offsetList[j][0] + globalSum
+        if (starter != -1):
+            for j in range(starter, len(offsetList)):
+                if (offsetList[j][0] != -1):
+                    offsetList[j][0] = offsetList[j][0] + globalSum
+    else:
+        for j in range(len(offsetList)):
+            offsetList[j][0] = offsetList[j][0] + globalSum
     
     offsetList.sort(key = lambda a: a[1])
     old = open("./overlay9_" + str(i).zfill(4) + ".bin", "rb")
