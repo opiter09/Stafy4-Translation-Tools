@@ -4,7 +4,9 @@ try:
     os.mkdir("output")
 except OSError as error:
     pass
+
 fileDict = {}
+globalSum = 0
 
 for i in range(34):
     globalSum = 0
@@ -15,8 +17,6 @@ for i in range(34):
     offsetList = []
     for j in range(len(lines) - 1):
         if lines[j + 1].startswith("msgid") and (len(lines[j + 1]) > 14) and ("<" not in lines[j + 1]) and ("@" not in lines[j + 1]) and ("ï" not in lines[j + 1]):
-            # if len(lines[j].split(",")) > 1:
-                # print(i)
             for substring in lines[j].split(";"):
                 offsetList.append([ int(substring.split("(")[1].split(")")[0], 16), int(substring.split("<- ")[1].split(" ")[0], 16),
                     int(substring.split("<- ")[1].split(" ")[0], 16) + 4 ])   
@@ -27,7 +27,6 @@ for i in range(34):
         for root, dirs, files in os.walk("./" + str(i).zfill(4) + "_textFiles/"):
             for file in files:
                 if (file.endswith(".BMG") == True):
-                    subprocess.run([ "./wbmgt/wbmgt.exe", "encode", os.path.join(root, file), "--overwrite", "--encoding", "SHIFTJIS" ])
                     begOffset = int(file.split("_")[0])
                     endOffset = int(file.split("_")[1].split(".")[0])
                     change = os.stat("./" + str(i).zfill(4) + "_textFiles/" + file).st_size - (endOffset - begOffset)
@@ -97,7 +96,6 @@ starter = 0
 for root, dirs, files in os.walk("./arm9TextFiles/"):
     for file in files:
         if (file.endswith(".BMG") == True):
-            subprocess.run([ "./wbmgt/wbmgt.exe", "encode", os.path.join(root, file), "--overwrite", "--encoding", "SHIFTJIS" ])
             begOffset = int(file.split("_")[0])
             endOffset = int(file.split("_")[1].split(".")[0])
             change = os.stat("./arm9TextFiles/" + file).st_size - (endOffset - begOffset)
@@ -128,9 +126,9 @@ new = open("./output/arm9.bin", "wb")
 new.close()
 new = open("./output/arm9.bin", "ab")
 
-for i in range(int(0x0932FC), int(0x093458), 4):
+for i in range(int(0x0932FC), int(0x093459), 4):
     pointed = int.from_bytes(whole[i:(i + 4)], "little")
-    offsetList.append([ pointed + fileDict[pointed], i, i + 4 ]) 
+    offsetList.append([ pointed + fileDict[pointed], i, i + 4 ])
 
 offsetList.sort(key = lambda a: a[1])
 if (len(offsetList) > 0):
