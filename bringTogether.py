@@ -74,7 +74,6 @@ offsetList.sort(key = lambda a: a[1])
 new.write(whole[0:offsetList[0][1]])
 new.write(offsetList[0][0].to_bytes(4, "little"))
 for j in range(1, len(offsetList)):
-    new.write(whole[offsetList[j - 1][2]:offsetList[j][1]])
     new.write(offsetList[j][0].to_bytes(4, "little"))
 new.write(whole[offsetList[-1][2]:])
 
