@@ -20,6 +20,7 @@ for i in range(len(starts)):
     new = open(filePath, "wb")
     new.write(binn[starts[i]:(starts[i] + size)])
     new.close()
+    subprocess.run([ "./wbmgt/wbmgt.exe", "decode", filePath, "--x-escapes", "--overwrite" ])
 
 
 for j in range(34):
@@ -41,6 +42,7 @@ for j in range(34):
         new = open(filePath, "wb")
         new.write(binn[starts[i]:(starts[i] + size)])
         new.close()
+        subprocess.run([ "./wbmgt/wbmgt.exe", "decode", filePath, "--x-escapes", "--overwrite" ])
     
     if (len(os.listdir("./" + str(j).zfill(4) + "_textFiles")) == 0):
         os.rmdir(str(j).zfill(4) + "_textFiles")

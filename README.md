@@ -7,6 +7,6 @@ To use this, split apart the ROM with CrystalTile2 (https://www.romhacking.net/u
 Here is a useful link for character codes: https://www.msx.org/wiki/Shift-JIS_code. The internet informs me that the later Roman-alphabet codes are used by the DS,
 not the ones in the very first table.
 
-Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting at 0x75.
+Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMP, starting at 0x75.
 
 Also if you're going to edit the BMGs, make sure to have a look at https://wiibrew.org/wiki/BMG_files#BMG_header
