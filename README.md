@@ -1,12 +1,20 @@
 # Stafy4-Translation-Tools
-These files are designed to split apart Densetsu no Stafy 4 to make translation easier. Eventually, they will further split the files into smaller files for each
-dialogue, and handle combining them and doing all the pointers for you. For now, there's just some bare-bones extraction.
+This code is designed to use wbmtg to let you easily edit Starfy 4's text, and then reinsert it back into
+the ROM with no issues.
 
-To use this, split apart the ROM with CrystalTile2 (https://www.romhacking.net/utilities/818/), then place the scripts in STAFY4/FSI.CT and run them.
+To use this, split apart the ROM with CrystalTile (https://www.romhacking.net/utilities/818/) or equivalent.
+You'll need arm9.bin, arm9ovltable.bin, and all the overlays--put them into this very folder.
 
-Here is a useful link for character codes: https://www.msx.org/wiki/Shift-JIS_code. The internet informs me that the later Roman-alphabet codes are used by the DS,
-not the ones in the very first table.
+You also need Python (3+). Once you have it run, textExtract.bat (or CLI the py file) to split apart
+everything. When you are done, simply use bringTogether.bat.
 
-Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting at 0x75.
+From there, you will need to insert all the files back into the ROM. For batch stuff like this, I use
+jNDSTool (https://github.com/JackHack96/jNdstool). Do note that it has a bit of a different folder set up
+than what Crystaltile gives you:
+- everything except FSI.CT must go inside a "data" folder
+- FSCI.CT must be renamed to "overlay," and the non-overlay files must be taken out of it and put "next
+  to it" (in the same folder as it and data)
+- ndsheader.bin must renamned to header.bin
 
-Also if you're going to edit the BMGs, make sure to have a look at https://wiibrew.org/wiki/BMG_files#BMG_header
+Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting
+at 0x75 (or just the first thing in the text file)
