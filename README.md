@@ -1,5 +1,5 @@
 # Stafy4-Translation-Tools
-This code is designed to use wbmtg to let you easily edit Starfy 4's text, and then reinsert it back into
+This code is designed to use wbmgt to let you easily edit Starfy 4's text, and then reinsert it back into
 the ROM with no issues.
 
 To use this, split apart the ROM with CrystalTile (https://www.romhacking.net/utilities/818/) or equivalent.
