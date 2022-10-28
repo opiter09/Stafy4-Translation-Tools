@@ -81,4 +81,17 @@ for file in appends:
     bmg = open(file, "rb")
     new.write(bmg.read())
     bmg.close()
-new.close()  
+new.close()
+
+
+old = open("./arm9ovltable.bin", "rb")
+whole = old.read()
+old.close()
+new = open("./output/arm9ovltable.bin", "wb")
+new.close()
+new = open("./output/arm9ovltable.bin", "ab")
+
+for i in range(34):
+    new.write(whole[(i * 32):(8 + i * 32)])
+    new.write(os.stat("./output/overlay9_" + str(i).zfill(4) + ".bin").st_size.to_bytes(4, "little"))
+    new.write(whole[(12 + i * 32):(32 + i * 32)])
