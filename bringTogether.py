@@ -84,12 +84,12 @@ for file in appends:
 new.close()
 
 
-old = open("./arm9ovltable.bin", "rb")
+old = open("./y9.bin", "rb")
 whole = old.read()
 old.close()
-new = open("./output/arm9ovltable.bin", "wb")
+new = open("./output/y9.bin", "wb")
 new.close()
-new = open("./output/arm9ovltable.bin", "ab")
+new = open("./output/y9.bin", "ab")
 
 for i in range(34):
     new.write(whole[(i * 32):(8 + i * 32)])
