@@ -29,10 +29,10 @@ for j in range(34):
     except OSError as error:
         pass
         
-    binn = open("overlay9_" + str(j).zfill(4) + ".bin", "rb").read()
+    binn = open("overlay_" + str(j).zfill(4) + ".bin", "rb").read()
 
     starts = []
-    for i in range(os.stat("overlay9_" + str(j).zfill(4) + ".bin").st_size):
+    for i in range(os.stat("overlay_" + str(j).zfill(4) + ".bin").st_size):
         if (binn[i:(i + 8)].decode("UTF-8", errors = "backslashreplace") == "MESGbmg1"):
             starts.append(i)
 

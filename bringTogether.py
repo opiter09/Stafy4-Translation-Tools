@@ -7,7 +7,7 @@ except OSError as error:
 fileDict = {}
 
 for i in range(34):
-    endLoc = os.stat("./overlay9_" + str(i).zfill(4) + ".bin").st_size + int(0x021275E0)
+    endLoc = os.stat("./overlay_" + str(i).zfill(4) + ".bin").st_size + int(0x021275E0)
     appends = []
 
     if (os.path.exists("./" + str(i).zfill(4) + "_textFiles/") == True):
@@ -24,12 +24,12 @@ for i in range(34):
                         endLoc = endLoc + os.stat("./" + str(i).zfill(4) + "_textFiles/" + file).st_size
                         appends.append(os.path.join(root, file))
     
-    old = open("./overlay9_" + str(i).zfill(4) + ".bin", "rb")
+    old = open("./overlay_" + str(i).zfill(4) + ".bin", "rb")
     whole = old.read()
     old.close()
-    new = open("./output/overlay9_" + str(i).zfill(4) + ".bin", "wb")
+    new = open("./output/overlay_" + str(i).zfill(4) + ".bin", "wb")
     new.close()
-    new = open("./output/overlay9_" + str(i).zfill(4) + ".bin", "ab")
+    new = open("./output/overlay_" + str(i).zfill(4) + ".bin", "ab")
 
     new.write(whole)
     for file in appends:
@@ -93,5 +93,5 @@ new = open("./output/y9.bin", "ab")
 
 for i in range(34):
     new.write(whole[(i * 32):(8 + i * 32)])
-    new.write(os.stat("./output/overlay9_" + str(i).zfill(4) + ".bin").st_size.to_bytes(4, "little"))
+    new.write(os.stat("./output/overlay_" + str(i).zfill(4) + ".bin").st_size.to_bytes(4, "little"))
     new.write(whole[(12 + i * 32):(32 + i * 32)])
