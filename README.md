@@ -12,4 +12,7 @@ From there, you will need to insert all the files back into the ROM. Thankfully,
 so just put the new files (in the "output" folder) where you got them from in NDS_UNPACK, and then repack.
 
 Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting
-at 0x75 (or just the first thing in the text file)
+at 0x75 (or just the first thing in the text file).
+
+NOTE: Since wbmgt is licensed under the GPL, I legally must inform you that it's source code can be found
+at https://github.com/Wiimm/wiimms-szs-tools
