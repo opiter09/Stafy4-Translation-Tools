@@ -1,6 +1,9 @@
-
 *.bin
 *.BMG
 New.py
 *.ini
 *_*.txt
+NDS_UNPACK/*
+*.nds
+*.sav
+*.pyc

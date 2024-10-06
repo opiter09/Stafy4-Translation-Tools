@@ -1,18 +1,18 @@
 # Stafy4-Translation-Tools
+You MUST put the ROM in the same folder as the exe, or it won't work.
+
 This code is designed to use wbmgt (https://szs.wiimm.de/wbmgt/) to let you easily edit Starfy 4's text,
 and then reinsert it back into the ROM with no issues.
 
-To use this, split apart the ROM with DSLazy specifically (https://www.romhacking.net/utilities/793/).
-You'll need arm9.bin, y9.bin, and all the overlays--put them into this very folder.
+To use this, you can simply drag and drop your ROM onto functions.exe. Then, just edit the plain text files
+in the X_textFiles folder to change the text, and drag the ROM onto functions.exe again to yield your new
+ROM, out.nds.
 
-You also need Python (3+). Once you have it run, textExtract.bat (or CLI the py file) to split apart
-everything. When you are done, simply use bringTogether.bat.
-
-From there, you will need to insert all the files back into the ROM. Thankfully, DSLazy also does this,
-so just put the new files (in the "output" folder) where you got them from in NDS_UNPACK, and then repack.
-
-Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting
+Also, Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting
 at 0x75 (or just the first thing in the text file).
 
-NOTE: Since wbmgt is licensed under the GPL, I legally must inform you that its source code can be found
-at https://github.com/Wiimm/wiimms-szs-tools
+Finally, to download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
+
+# Source Codes
+- wbmgt: https://github.com/Wiimm/wiimms-szs-tools
+- NDSTool: https://github.com/devkitPro/ndstool (this is a later version; the one used here came without a license as part of DSLazy)
