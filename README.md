@@ -1,5 +1,5 @@
 # Stafy4-Translation-Tools
-This is currently very broken, do not try to actually use it. I'm keeping it up as a reference; hopefully it will get fixed
+This is currently very broken, so do not try to actually use it. I'm keeping it up as a reference; hopefully it will get fixed
 eventually.
 
 You MUST put the ROM in the same folder as the exe, or it won't work.
