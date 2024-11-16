@@ -11,7 +11,7 @@ ROM, out.nds.
 Also, Moe's first dialogue for the City tutorial can be found in 0009_textFiles' 582164_585268.BMG, starting
 at 0x75 (or just the first thing in the text file).
 
-Finally, to download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP."
+Finally, to download this, if you are confused, press the Green "Code" button in the top right, then choose "Download ZIP".
 
 # Source Codes
 - wbmgt: https://github.com/Wiimm/wiimms-szs-tools
